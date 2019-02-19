@@ -53,7 +53,7 @@ nav {
 }
 
 .img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .container {
@@ -103,6 +103,15 @@ nav {
   align-self: center;
   justify-self: flex-end;
   min-width: 10rem;
+}
+
+.bear-logo {
+  align-self: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-width: 1em;
+  border: 1px solid rgb(31, 82, 111);
+  border-radius: 50%;
 }
 
 /* header content */
@@ -175,6 +184,7 @@ nav {
 .features-img {
   justify-self: flex-end;
   margin: auto;
+  border-radius: 15px;
 }
 
 .npm-install-button {
