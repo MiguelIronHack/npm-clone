@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  border: 0;
+  border-radius: 50px;
+  padding: 13px;
+}
+
+/* navbar */
+nav {
+  background: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  height: 5vh;
+  line-height: 5vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-left {
+  float: left;
+  margin-left: 10px;
+}
+
+.top-links {
+  display: block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-flex;
+  margin: 0 10px;
+}
+
+.light-blue-color {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(32, 101, 136);
+}
+
+.img {
+  object-fit: cover;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* header bar*/
+
+.header-container {
+  height: 70vh;
+}
+
+.header-bar {
+  display: flex;
+  align-content: center;
+  padding: 0.5rem 2%;
+  max-height: 5vh;
+}
+
+.header-bar .bar-logo {
+  height: 5vh;
+}
+
+.header-bar .search-btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgb(31, 82, 111);
+}
+
+.search-bar {
+  display: inline-flex;
+  align-content: center;
+  width: 100%;
+  height: 5vh;
+  margin: 0 1rem;
+}
+
+#search-bar-input {
+  border: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgb(31, 82, 111);
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.sign-up-log-in {
+  align-self: center;
+  justify-self: flex-end;
+  min-width: 10rem;
+}
+
+/* header content */
+.header-content {
+  margin-top: 5rem;
+}
+
+.header-content .header-content-text {
+  margin: 1rem;
+}
+
+.header-content .sign-up-btn {
+  background: rgb(240, 146, 51);
+  color: #fff;
+}
+
+.build-img {
+  margin: auto;
+  width: 50%;
+  float: right;
+  max-height: 50vh;
+}
+
+/* Enterprise */
+#enterprise {
+  background: rgb(39, 53, 71);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.collaboration {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 70vh;
+}
+
+.collaboration-content {
+  padding-left: 3rem;
+  margin: auto;
+}
+
+.collaboration-content-middle {
+  line-height: 2.5;
+}
+
+.collaboration .collaboration-img {
+  margin: auto;
+  width: 50%;
+  float: left;
+  padding: 0 1rem;
+}
+
+.collaboration-btn {
+  background: rgb(203, 56, 55);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Features */
+
+.features-content {
+  display: flex;
+  max-width: 64rem;
+  height: 70vh;
+}
+
+.features-text {
+  margin: auto;
+  justify-self: flex-start;
+}
+
+.features-img {
+  justify-self: flex-end;
+  margin: auto;
+}
+
+.npm-install-button {
+  background: rgb(49, 68, 88);
+  color: rgba(255, 255, 255, 0.8);
+}
+/*Host*/
+
+.host-heading {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.host-content {
+  color: rgb(135, 145, 156);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.host-trio {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+#find {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+#discover {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+#build {
+  grid-column: 3/4;
+  grid-row: 1;
+}
+
+#host a {
+  color: rgb(208, 74, 73);
+}
