@@ -48,7 +48,7 @@ nav {
 }
 
 .light-blue-color {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   background: rgb(32, 101, 136);
 }
 
@@ -138,7 +138,7 @@ nav {
 /* Enterprise */
 #enterprise {
   background: rgb(39, 53, 71);
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 .collaboration {
@@ -165,7 +165,7 @@ nav {
 
 .collaboration-btn {
   background: rgb(203, 56, 55);
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 
 /* Features */
@@ -189,7 +189,7 @@ nav {
 
 .npm-install-button {
   background: rgb(49, 68, 88);
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 /*Host*/
 
