@@ -91,7 +91,7 @@ nav {
   margin: 0 1rem;
 }
 
-#search-bar-input {
+.search-bar-input {
   border: 0;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgb(31, 82, 111);
@@ -136,7 +136,7 @@ nav {
 }
 
 /* Enterprise */
-#enterprise {
+.enterprise {
   background: rgb(39, 53, 71);
   color: #fff;
 }
@@ -191,6 +191,7 @@ nav {
   background: rgb(49, 68, 88);
   color: #fff;
 }
+
 /*Host*/
 
 .host-heading {
@@ -203,24 +204,28 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .host-trio {
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: center;
 }
-#find {
+
+.find {
   grid-column: 1/2;
   grid-row: 1;
 }
-#discover {
+
+.discover {
   grid-column: 2/3;
   grid-row: 1;
 }
-#build {
+
+.build {
   grid-column: 3/4;
   grid-row: 1;
 }
 
-#host a {
+.host a {
   color: rgb(208, 74, 73);
 }
